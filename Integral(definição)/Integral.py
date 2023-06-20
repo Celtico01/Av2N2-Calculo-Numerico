@@ -18,3 +18,7 @@ b = 3
 # subintervalos
 
 n = [10, 15, 20]
+
+
+#resultado da integral 
+r = -47.9915748
