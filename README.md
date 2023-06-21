@@ -4,9 +4,11 @@
 ### Implementação dos métodos de Gauss-Jacobi e Gauss-Seidel, foi feito para um unico sistema mas é só alterar o sistema dentro do codigo e também a aplicação não foi feita usando POO então tá meio feio mas é funcional!
 
 #### Status: 
-##### Trapézio Simples: Finalizado
-##### Trapézio Repetido: em andamento
+##### Trapézio Simples: Finalizado(mas durante a criação da main vai sofre mudanças)
+##### Trapézio Repetido: Finalizado(mas durante a criação da main vai sofre mudanças)
 ##### Simpson Simples: em andamento
 ##### Simpson Repetido: em andamento
+##### Main: em andamento
+##### Calculo dos Erros: em andamento
 
 # Gostou? deixa sua estrela no Repositório :smile: 
