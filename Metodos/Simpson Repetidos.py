@@ -8,3 +8,4 @@ import sys
 sys.path.append('C:\\Users\\alanm\\OneDrive\\Área de Trabalho\\curso python\\Python na IDE\\Trabalho calNum AV2N2\\Integral(definição)')
 
 import Integral as itg
+

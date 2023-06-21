@@ -10,20 +10,20 @@ sys.path.append('C:\\Users\\alanm\\OneDrive\\Área de Trabalho\\curso python\\Py
 import Integral as itg
 
 def trapezioSimples(integral, a, b, n):
-    h = (b - a) / n  # Tamanho do intervalo
-    valorItg = 0.5 * (integral(a) + integral(b))  # Primeiro e último termo da fórmula
-
-    # Termos intermediários da fórmula
+    h = (b - a) / n # Tamanho do intervalo
+    
+    valorItg = 0.5 * (integral(a) + integral(b))
+    
     for i in range(1, n):
         x = a + i * h
         valorItg += integral(x)
-
-    valorItg *= h  # Multiplica pelo tamanho do intervalo
-
+        
+    valorItg *= h
+    
     return valorItg
 
 ############################################################################################
-
+#pode ser movido para a main ainda.
 #resultado
 resultado = [0] * len(itg.n)
 for i in range(len(itg.n)):
