@@ -12,3 +12,8 @@
 ##### Calculo dos Erros: Finalizado
 
 # Gostou? deixa sua estrela no Repositório :smile: 
+
+# :no_entry: Finalizado :no_entry:
+![No Maintenance Intended](http://unmaintained.tech/badge.svg)
+
+
