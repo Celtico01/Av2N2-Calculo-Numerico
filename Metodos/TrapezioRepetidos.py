@@ -19,11 +19,11 @@ def trapezioRepetido(integral, a, b, n):
         valorItg += (integral(x1) + 4 * integral((x1 + x2) / 2) + integral(x2)) * h / 6
 
     return valorItg
-
-resultado = [0] * len(itg.n)
-for i in range(len(itg.n)):
-    resultado[i] = trapezioRepetido(itg.Integral, itg.a, itg.b, itg.n[i])
-
-#exibindo
-for i, res in enumerate(resultado):
-    print(f"Resultado {i + 1}: {res}")
+############################################################################################
+#resultado
+def resultado():
+    resultado = [0] * len(itg.n)
+    for i in range(len(itg.n)):
+        resultado[i] = trapezioRepetido(itg.Integral, itg.a, itg.b, itg.n[i])
+    
+    return resultado

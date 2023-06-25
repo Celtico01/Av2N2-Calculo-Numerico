@@ -4,11 +4,11 @@
 ### Implementação dos métodos: Trapézio Simples, Trapézio Repetido, Simpson Simples, Simpson Repetido.
 
 #### Status: 
-##### Trapézio Simples: Finalizado(mas durante a criação da main vai sofre mudanças)
-##### Trapézio Repetido: Finalizado(mas durante a criação da main vai sofre mudanças)
-##### Simpson Simples: em andamento
-##### Simpson Repetido: em andamento
-##### Main: em andamento
+##### Trapézio Simples: Finalizado
+##### Trapézio Repetido: Finalizado
+##### Simpson Simples: Finalizado
+##### Simpson Repetido: Finalizado
+##### Main: Finalizado
 ##### Calculo dos Erros: em andamento
 
 # Gostou? deixa sua estrela no Repositório :smile: 

@@ -23,15 +23,13 @@ def trapezioSimples(integral, a, b, n):
     return valorItg
 
 ############################################################################################
-#pode ser movido para a main ainda.
 #resultado
-resultado = [0] * len(itg.n)
-for i in range(len(itg.n)):
-    resultado[i] = trapezioSimples(itg.Integral, itg.a, itg.b, itg.n[i])
-
-#exibindo
-for i, res in enumerate(resultado):
-    print(f"Resultado {i + 1}: {res}")
+def resultado():
+    resultado = [0] * len(itg.n)
+    for i in range(len(itg.n)):
+        resultado[i] = trapezioSimples(itg.Integral, itg.a, itg.b, itg.n[i])
+    
+    return resultado
 
 
 
