@@ -6,7 +6,6 @@ Created on Tue Jun 20 16:33:40 2023
 """
 import math as mth
 
-
 def Integral(x):
     return mth.e ** -x + mth.cos(3 * x) - x ** 4
 
@@ -20,5 +19,6 @@ b = 3
 n = [10, 15, 20]
 
 
-#resultado da integral 
+
+#resultado das integral 
 r = -47.9915748

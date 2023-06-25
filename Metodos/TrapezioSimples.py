@@ -20,16 +20,20 @@ def trapezioSimples(integral, a, b, n):
         
     valorItg *= h
     
-    return valorItg
+    erro = abs(itg.r) - abs(valorItg)
+    erro = abs(erro)
+    
+    return valorItg, erro
 
 ############################################################################################
 #resultado
-def resultado():
+def resultados():
     resultado = [0] * len(itg.n)
+    erro = [0] * len(itg.n)
     for i in range(len(itg.n)):
-        resultado[i] = trapezioSimples(itg.Integral, itg.a, itg.b, itg.n[i])
+        resultado[i], erro[i] = trapezioSimples(itg.Integral, itg.a, itg.b, itg.n[i])
     
-    return resultado
+    return resultado, erro
 
 
 

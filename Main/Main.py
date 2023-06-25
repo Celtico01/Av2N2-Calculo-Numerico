@@ -15,28 +15,44 @@ import time as tm
 
 
 def opcao1():
-    resultado = ts.resultado()
+    resultado, erro = ts.resultados()
     for i, res in enumerate(resultado):
-        print(f"Resultado {i + 1}: {res}")
-    tm.sleep(4)    
+        print("Resultado {0}: {1:.10f}".format(i + 1, res))
+
+    for i, err in enumerate(erro):
+        print("Erro {0}: {1:.10f}".format(i + 1, err))
+
+    tm.sleep(4)  
     
 def opcao2():
-    resultado = tr.resultado()
+    resultado, erro = tr.resultados()
     for i, res in enumerate(resultado):
-        print(f"Resultado {i + 1}: {res}")
-    tm.sleep(4)  
+        print("Resultado {0}: {1:.10f}".format(i + 1, res))
+
+    for i, err in enumerate(erro):
+        print("Erro {0}: {1:.10f}".format(i + 1, err))
+
+    tm.sleep(4) 
     
 def opcao3():
-    resultado = ss.resultado()
+    resultado, erro = ss.resultados()
     for i, res in enumerate(resultado):
-        print(f"Resultado {i + 1}: {res}")
-    tm.sleep(4)  
+        print("Resultado {0}: {1:.10f}".format(i + 1, res))
+
+    for i, err in enumerate(erro):
+        print("Erro {0}: {1:.10f}".format(i + 1, err))
+
+    tm.sleep(4) 
     
 def opcao4():
-    resultado = sr.resultado()
+    resultado, erro = sr.resultados()
     for i, res in enumerate(resultado):
-        print(f"Resultado {i + 1}: {res}")
-    tm.sleep(4)  
+        print("Resultado {0}: {1:.10f}".format(i + 1, res))
+
+    for i, err in enumerate(erro):
+        print("Erro {0}: {1:.10f}".format(i + 1, err))
+
+    tm.sleep(4) 
     
 def opcao5():
     # Código para a opção 5 (encerrar o loop)

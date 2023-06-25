@@ -26,13 +26,18 @@ def simpsonRepetido(integral, a, b, n):
 
     # Aplica a fórmula do método de Simpson repetido
     valorItg = h / 3 * (integral(a) + integral(b) + 4 * soma_termos_impares + 2 * soma_termos_pares)
-    return valorItg
+    
+    erro = abs(itg.r) - abs(valorItg)
+    erro = abs(erro)
+    
+    return valorItg, erro
 
 ############################################################################################
 #resultado
-def resultado():
+def resultados():
     resultado = [0] * len(itg.n)
+    erro = [0] * len(itg.n)
     for i in range(len(itg.n)):
-        resultado[i] = simpsonRepetido(itg.Integral, itg.a, itg.b, itg.n[i])
+        resultado[i], erro[i] = simpsonRepetido(itg.Integral, itg.a, itg.b, itg.n[i])
     
-    return resultado
+    return resultado, erro

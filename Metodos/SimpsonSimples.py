@@ -24,14 +24,17 @@ def simpsonSimples(integral, a, b, n):
 
     valorItg *= h / 3  # Multiplica pelo coeficiente final
 
-    return valorItg
+    erro = abs(itg.r) - abs(valorItg)
+    erro = abs(erro)
+    
+    return valorItg, erro
 
 ############################################################################################
-#pode ser movido para a main ainda.
 #resultado
-def resultado():
+def resultados():
     resultado = [0] * len(itg.n)
+    erro = [0] * len(itg.n)
     for i in range(len(itg.n)):
-        resultado[i] = simpsonSimples(itg.Integral, itg.a, itg.b, itg.n[i])
+        resultado[i], erro[i] = simpsonSimples(itg.Integral, itg.a, itg.b, itg.n[i])
     
-    return resultado
+    return resultado, erro

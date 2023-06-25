@@ -9,6 +9,6 @@
 ##### Simpson Simples: Finalizado
 ##### Simpson Repetido: Finalizado
 ##### Main: Finalizado
-##### Calculo dos Erros: em andamento
+##### Calculo dos Erros: Finalizado
 
 # Gostou? deixa sua estrela no Repositório :smile: 
